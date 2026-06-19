@@ -1,8 +1,7 @@
 def converter(metros):
     centimetros = metros * 100
     milimetros = metros * 1000
-    return centimetros , milimetros 
+    print("Centímetros: ", centimetros)
+    print("Milímetros: ", milimetros)
 metros = float(input("Digite um valor em metros:"))
-cm, mm = converter(metros)
-print("Valor em centímetros:", cm)
-print("Valor em milímetros:",mm)
+converter(metros)
